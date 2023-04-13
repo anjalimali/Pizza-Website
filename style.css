@@ -1,7 +1,4 @@
-.s-img{
-    height: 40rem ;
-    width: 90rem ;
-}
+
 .mar{
     margin: 21rem;
     
@@ -29,6 +26,16 @@
     font-weight: 800;
 }
 
-.img1{
-    height: 40vh;
+
+
+@media screen  and (max-width:768px) {
+    .right a,i{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .btn1{
+        display: none;
+    }
 }
