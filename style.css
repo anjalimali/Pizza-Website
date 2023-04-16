@@ -17,15 +17,17 @@
 }
 
 .ser{
-    height: 20rem;
-    /* width: 10rem; */
+    height: 15rem;
+    width: 15rem;
 }
 
 .size{
     font-size: 3rem;
     font-weight: 800;
 }
-
+.img1{
+    height: 15vh;
+}
 
 
 @media screen  and (max-width:768px) {
@@ -37,5 +39,8 @@
     }
     .btn1{
         display: none;
+    }
+    .size{
+        font-size: 2rem;
     }
 }

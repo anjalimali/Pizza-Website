@@ -14,6 +14,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="./style.css">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +40,7 @@
   </nav>
 
   <div class="hero">
-    <div class="container my-5">
+    <div class="container py-5">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -84,10 +86,10 @@
   </div>
 
   <div id="service" class="container">
-    <h1 class="text-center my-3 size">OUR SPECIALITY</h1>
+    <h1 class="text-center py-3 size">OUR SPECIALITY</h1>
     <div class="row">
-      <div class="col-md-4">
-        <div class="card p-2 my-5 shadow p-3 mb-5 bg-body rounded d-flex justify-content-center align-items-center ">
+      <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <div class="card p-2 my-5 shadow p-3 mb- 4bg-body rounded d-flex justify-content-center align-items-center ">
           <img src="./images/pizza1-removebg-preview.png" class="card-img-top ser p-2 img-fluid" alt="...">
           <div class="card-body ">
             <h5 class="card-title text-center">Pepperoni Pizza</h5>
@@ -100,8 +102,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card p-2 my-5 shadow p-3 mb-5 bg-body rounded d-flex justify-content-center align-items-center">
+      <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <div class="card p-2 my-5 shadow p-3 mb-4 bg-body rounded d-flex justify-content-center align-items-center">
           <img src="./images/pizza3-removebg-preview.png" class="card-img-top ser p-2 img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">Trio Cheese</h5>
@@ -114,8 +116,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card  p-2 my-5 shadow p-3 mb-5 bg-body rounded d-flex justify-content-center align-items-center">
+      <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <div class="card  p-2 my-5 shadow p-3 mb-4 bg-body rounded d-flex justify-content-center align-items-center">
           <img src="./images/pizza2-removebg-preview.png" class="card-img-top ser p-2 img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">Italiano Original</h5>
@@ -132,10 +134,11 @@
   </div>
 
 
-  <div class="special ">
-    <div class="container bg-dark">
+  <div class="special bg-dark">
+    <div class="container ">
       <div class="row">
-        <div class="col-md-6 d-flex my-5 flex-column  justify-content-center">
+        <div class="col-md-6 d-flex my-5 flex-column  justify-content-center" data-aos="fade-down"
+          data-aos-easing="linear" data-aos-duration="1500">
           <h4 class="mx-5 text-warning fw-bold fs-3">Delicious Restaurant</h4>
           <h1 class="m-5 my-2 fs-1 fw-bold text-light">ABOUT PIZZON</h1>
           <p class="m-5 my-4 text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, laborum
@@ -155,11 +158,11 @@
     </div>
   </div>
 
-  <div class="product  mt-5 mb-5 bg-danger">
+  <div class="product  pt-5 mb-5 bg-danger">
     <div class="container ">
       <h1 class="text-center text-light fw-bold mb-5">OUR SPECIAL MENU</h1>
       <div class="row d-flex justify-content-between mb-3">
-        <div class="col-md-3 mb-2">
+        <div class="col-md-3 mb-2"data-aos="zoom-in-down" data-aos-duration="1500">
           <div class="card  text-center " style="width: 18rem;">
             <img src="./images/piz1-removebg-preview.png" class="card-img-top img-fluid p-2 "
               style="height: 30vh; width: 30vh;" alt="...">
@@ -169,7 +172,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-2">
+        <div class="col-md-3 mb-2"data-aos="zoom-out-down" data-aos-duration="1500">
           <div class="card  text-center" style="width: 18rem;">
             <img src="./images/sea_food_pasta-removebg-preview.png" class="card-img-top img-fluid p-2"
               style="height: 30vh; width: 30vh;" alt="...">
@@ -179,7 +182,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-2">
+        <div class="col-md-3 mb-2"data-aos="zoom-in-down" data-aos-duration="1500">
           <div class="card  text-center" style="width: 18rem;">
             <img src="./images/piz2-removebg-preview.png" class="card-img-top img-fluid p-2"
               style="height: 30vh; width: 30vh;" alt="...">
@@ -189,7 +192,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 ">
+        <div class="col-md-3 "data-aos="zoom-out-down" data-aos-duration="1500">
           <div class="card  text-center" style="width: 18rem;">
             <img src="./images/rum_with_soda-removebg-preview.png" class="card-img-top img-fluid p-2"
               style="height: 30vh; width: 30vh;" alt="...">
@@ -201,7 +204,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 mb-2">
+        <div class="col-md-3 mb-2"data-aos="zoom-in-down" data-aos-duration="1500">
           <div class="card  text-center " style="width: 18rem;">
             <img src="./images/pizza2-removebg-preview.png" class="card-img-top img-fluid p-2"
               style="height: 30vh; width: 30vh;" alt="...">
@@ -212,7 +215,7 @@
           </div>
 
         </div>
-        <div class="col-md-3 mb-2">
+        <div class="col-md-3 mb-2"data-aos="zoom-out-down" data-aos-duration="1500">
           <div class="card  text-center" style="width: 18rem;">
             <img src="./images/chockalate-removebg-preview.png" class="card-img-top img-fluid p-2"
               style="height: 30vh; width: 30vh;" alt="...">
@@ -222,7 +225,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-2">
+        <div class="col-md-3 mb-2"data-aos="zoom-in-down" data-aos-duration="1500">
           <div class="card  text-center" style="width: 18rem;">
             <img src="./images/pizza3-removebg-preview.png" class="card-img-top img-fluid p-2"
               style="height: 30vh; width: 30vh;" alt="...">
@@ -232,7 +235,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 mb-2">
+        <div class="col-md-3 mb-2"data-aos="zoom-out-down" data-aos-duration="1500">
           <div class="card  text-center" style="width: 18rem;">
             <img src="./images/caesar_salad-removebg-preview.png" class="card-img-top img-fluid p-2"
               style="height: 30vh; width: 30vh;" alt="...">
@@ -254,11 +257,12 @@
 
           <div class="card mb-3 ">
             <div class="row g-0 bg-warning ">
-              <div class="col-md-3 ">
-                <img src="./images/WhatsApp Image 2023-03-24 at 11.35.43 AM (1).jpeg" class="img-fluid rounded-start"
-                  alt="...">
+              <div class="col-md-3  d-flex justify-content-center align-items-center" data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./images/WhatsApp_Image_2023-03-24_at_11.35.43_AM-removebg-preview.png"
+                  class="img-fluid rounded-start img1 mt-2" alt="...">
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div class="card-body">
                   <h5 class="card-title">ORDER YOUR FOOD</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -271,13 +275,14 @@
 
 
 
-          <div class="card mb-3 ">
+          <div class="card mb-3  d-flex justify-content-center align-items-center">
             <div class="row g-0 bg-danger">
-              <div class="col-md-3 ">
-                <img src="./images/WhatsApp Image 2023-03-24 at 11.35.43 AM.jpeg" class="img-fluid rounded-start"
-                  alt="...">
+              <div class="col-md-3 d-flex justify-content-center align-items-center " data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./images/WhatsApp_Image_2023-03-24_at_11.35.43_AM__1_-removebg-preview.png"
+                  class="img-fluid rounded-start img1" alt="...">
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div class="card-body">
                   <h5 class="card-title">ORDER YOUR FOOD</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -291,12 +296,12 @@
 
           <div class="card mb-3">
             <div class="row g-0 bg-success">
-              <div class="col-md-3 ">
-                <img src="./images/WhatsApp Image 2023-03-24 at 11.35.59 AM.jpeg" class="img-fluid rounded-start"
-                  alt="...">
+              <div class="col-md-3 " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./images/WhatsApp_Image_2023-03-24_at_11.35.59_AM-removebg-preview.png"
+                  class="img-fluid rounded-start " alt="...">
               </div>
               <div class="col-md-7">
-                <div class="card-body">
+                <div class="card-body" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                   <h5 class="card-title">ORDER YOUR FOOD</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                     additional content. This content is a little bit longer.</p>
@@ -351,6 +356,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 
 </html>
